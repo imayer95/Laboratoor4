@@ -81,6 +81,7 @@ public class FileDataPersistence {
                         Integer.valueOf(temp[0]), temp[1],
                         Integer.valueOf(temp[2]), temp[4]);
                 laboratory.setGrade(grade);
+                int ingrtid = 9;
                 writer.write(laboratory.toString() + "\n");
             } else {
                 writer.write(line + "\n");
